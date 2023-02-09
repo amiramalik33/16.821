@@ -1,0 +1,16 @@
+
+dist/
+.idea/
+__pycache__/
+*.pkl
+.pytest_cache/
+.spyrpoject/
+*.DS_Store
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+~*.*
+*.SLDPRT
+*.SLDASM
+*.step
+$rpr_data/
+*.html
