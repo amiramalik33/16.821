@@ -1,8 +1,9 @@
-Make detailed comments because AVL and XFLR5 files can not be tracked line-by-line
-
-Master XFLR5 and Master AVL files may not be the same. If you modify one, please modify the other. If you did not or can not, note that in your commit. In the future, we may choose one over the other.
-
 ## Usage Instructions
+The FINAL.avl file is the most up-to-date AVL file of the aircraft configuration. Any other .avl files should be considered prototype and personal files.
+
+Any relevant aerodynamic data should be saved and indicated as linked to a version of the FINAL.evl to which it correlates.
+
+## Git Usage Instructions
 
 To use this respository:
 
