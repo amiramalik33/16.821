@@ -1,0 +1,39 @@
+#
+#  Seaway Mini .mass file
+#  Mass & Inertia breakdown
+#
+#  xyz is location of item's own CG
+#  Ixx.. are item's inertias about item's own CG
+#
+#   x back
+#   y right
+#   z up
+#
+#  x,y,z system here must have origin 
+#  at same location as AVL input file
+#
+Lunit = 0.0254 m							! 1 inch
+Munit = 0.001 kg							! 1 gram
+Tunit = 1.0 s							! 1 second
+
+g   = 9.81								! Standard acceleration due to gravity.
+rho = 1.225								! Standard air density.
+
+#
+#  mass   x     y     z      Ixx     Iyy     Izz   [ Ixy  Ixz  Iyz ]
+#
+  0.882  2.07  33.02  3.66   386    15.5     392   ! Wing (Right)
+  0.221  9.20  41.57  3.78    15    0.31    14.6   ! Wing (Right Aileron)
+  0.221  9.20 -41.57  3.78    15    0.31    14.6   ! Wing (Left Aileron)
+  0.882  2.07 -33.02  3.66   386    15.5     392   ! Wing (Left)
+  0.022  53.2 -34e-5  21.2   2.8    0.06     2.9   ! Tail (HStab)
+  0.088  57.3  66e-9  20.9  11.4    0.04    11.4   ! Tail (Elevator)
+  0.042  55.7 -64e-6  10.3   1.5    1.51    0.02   ! Tail (Rudder) 
+  0.011  51.5 -14e-5   9.3  0.38    0.42    0.03   ! Tail (VStab)
+  0.427  27.4      0 -0.98  0.28    107      107   ! Tail (Boom)
+  0.536  3.28 -13e-6 -5.98  5.66    59.6    59.2   ! Wet (Fuselage)
+  0.165 -5.65  16.33  2.45  3.21    1.62    1.62   ! Power (Right Motor)
+  0.069  1.06  24.02 -5.83  0.10    0.34    0.32   ! Wet (Right Sponson)
+  0.055  49.6 -39e-7 -0.86  0.04    0.23    0.24   ! Wet (Rear Sponson)
+  0.165 -5.65 -16.33  2.45  3.21    1.62    1.62   ! Power (Left Motor)
+  0.069  1.06 -24.02 -5.83  0.10    0.34    0.32   ! Wet (Left Sponson)
