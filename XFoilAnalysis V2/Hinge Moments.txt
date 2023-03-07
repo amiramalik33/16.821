@@ -1,0 +1,53 @@
+Aileron 00
+                                           2  2
+ Hinge moment/span = 0.323114  x  1/2 rho V  c 
+Aileron 05
+                                           2  2
+ Hinge moment/span = 0.406832  x  1/2 rho V  c 
+Aileron 10
+                                           2  2
+ Hinge moment/span = 2.441900  x  1/2 rho V  c 
+                                           2  2
+ Hinge moment/span = 0.445603  x  1/2 rho V  c 
+Aileron 15
+                                           2  2
+ Hinge moment/span = 1.304814  x  1/2 rho V  c 
+                                           2  2
+ Hinge moment/span = 1.304814  x  1/2 rho V  c 
+                                           2  2
+ Hinge moment/span = 0.520379  x  1/2 rho V  c 
+
+--------------------------------------------------------------------------------------------------------
+Elevator 05
+                                           2  2
+ Hinge moment/span = 0.299099  x  1/2 rho V  c 
+Elevator 10
+                                           2  2
+ Hinge moment/span = 0.444249  x  1/2 rho V  c 
+                                           2  2
+ Hinge moment/span = 1.397635  x  1/2 rho V  c 
+Elevator 15
+                                           2  2
+ Hinge moment/span = 0.387118  x  1/2 rho V  c 
+Elevator 30
+                                           2  2
+ Hinge moment/span = 0.552279  x  1/2 rho V  c 
+                                           2  2
+ Hinge moment/span = 1.882259  x  1/2 rho V  c 
+---------------------------------------------------------------------------------------------
+Rudder 05                                             
+							 2  2
+ Hinge moment/span = 0.299099  x  1/2 rho V  c 
+Rudder 10
+                                           2  2
+ Hinge moment/span = 1.397635  x  1/2 rho V  c 
+
+                                           2  2
+ Hinge moment/span = 0.444249  x  1/2 rho V  c 
+Rudder 15
+                                           2  2
+ Hinge moment/span = 0.387118  x  1/2 rho V  c 
+
+Rudder 30
+                                           2  2
+ Hinge moment/span = 1.606928  x  1/2 rho V  c 

@@ -1,0 +1,28 @@
+Aileron Max
+                                           2  2
+ Hinge moment/span = 1.304814  x  1/2 rho V  c 
+                                           2  2
+ Hinge moment/span = 0.520379  x  1/2 rho V  c 
+
+Elevator Max
+                                           2  2
+ Hinge moment/span = 0.552279  x  1/2 rho V  c 
+                                           2  2
+ Hinge moment/span = 1.882259  x  1/2 rho V  c 
+
+Rudder Max
+                                           2  2
+ Hinge moment/span = 1.606928  x  1/2 rho V  c 
+                                           2  2
+ Hinge moment/span = 0.444249  x  1/2 rho V  c 
+
+Rho = 1.223
+V = 9.38
+span = 
+		Aileron =  3.848m total span
+		Elevator = 1.000m total span
+		Rudder = 	 1.000m total span
+c =
+		Aileron = 0.447
+		Elevator = 0.222
+		Rudder = 0.295

@@ -1,0 +1,149 @@
+Microsoft Windows [Version 10.0.22621.1265]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Windows>cd
+C:\Users\Windows
+
+C:\Users\Windows>cd C:\Users\Windows\Desktop\OmniResources\Semesters\6 Spring 2023 Omnibus\0 Construct and Exercises\821
+
+C:\Users\Windows\Desktop\OmniResources\Semesters\6 Spring 2023 Omnibus\0 Construct and Exercises\821>xfoil ag36_f05.dat
+
+ ===================================================
+  XFOIL Version 6.99
+  Copyright (C) 2000   Mark Drela, Harold Youngren
+
+  This software comes with ABSOLUTELY NO WARRANTY,
+    subject to the GNU General Public License.
+
+  Caveat computor
+ ===================================================
+
+ File  xfoil.def  not found
+
+ Labeled airfoil file.  Name:  AG 36
+
+ Number of input coordinate points: 183
+ Counterclockwise ordering
+ Max thickness =     0.081827  at x =   0.277
+ Max camber    =     0.029337  at x =   0.443
+
+  LE  x,y  =   0.00001   0.02651  |   Chord =   0.99882
+  TE  x,y  =   0.99791  -0.01604  |
+
+ Current airfoil nodes set from buffer airfoil nodes ( 183 )
+
+   QUIT    Exit program
+
+  .OPER    Direct operating point(s)
+  .MDES    Complex mapping design routine
+  .QDES    Surface speed design routine
+  .GDES    Geometry design routine
+
+   SAVE f  Write airfoil to labeled coordinate file
+   PSAV f  Write airfoil to plain coordinate file
+   ISAV f  Write airfoil to ISES coordinate file
+   MSAV f  Write airfoil to MSES coordinate file
+   REVE    Reverse written-airfoil node ordering
+
+   LOAD f  Read buffer airfoil from coordinate file
+   NACA i  Set NACA 4,5-digit airfoil and buffer airfoil
+   INTE    Set buffer airfoil by interpolating two airfoils
+   NORM    Buffer airfoil normalization toggle
+   XYCM rr Change CM reference location, currently  0.25000 0.00000
+
+   BEND    Display structural properties of current airfoil
+
+   PCOP    Set current-airfoil panel nodes directly from buffer airfoil points
+   PANE    Set current-airfoil panel nodes ( 160 ) based on curvature
+  .PPAR    Show/change paneling
+
+  .PLOP    Plotting options
+
+   WDEF f  Write  current-settings file
+   RDEF f  Reread current-settings file
+   NAME s  Specify new airfoil name
+   NINC    Increment name version number
+
+   Z       Zoom    | (available in all menus)
+   U       Unzoom  |
+
+ XFOIL   c>  OPER
+
+.OPERi   c>  a 0
+ Calculating unit vorticity distributions ...
+
+.OPERi   c>  fnew
+
+.OPERi   c>  fmom
+
+Enter flap hinge x location   r>  0.8
+
+  Top    surface:  y =  0.0332     y/t = 1.0
+  Bottom surface:  y = -0.0000     y/t = 0.0
+
+Enter flap hinge y location (or 999 to specify y/t)   r>  0.5
+
+ Flap hinge x,y :  0.8000  0.5000
+                                           2  2
+ Hinge moment/span = 0.122487  x  1/2 rho V  c
+                                           2
+ x-Force     /span = 0.479258  x  1/2 rho V  c
+                                           2
+ y-Force     /span = 0.079587  x  1/2 rho V  c
+
+
+.OPERi   c>  fnew
+
+.OPERi   c>  fmom
+
+Enter flap hinge x location   r>  0.8
+
+  Top    surface:  y =  0.0332     y/t = 1.0
+  Bottom surface:  y = -0.0000     y/t = 0.0
+
+Enter flap hinge y location (or 999 to specify y/t)   r>  0
+
+ Flap hinge x,y :  0.8000  0.0000
+                                           2  2
+ Hinge moment/span = 0.005111  x  1/2 rho V  c
+                                           2
+ x-Force     /span = -.009756  x  1/2 rho V  c
+                                           2
+ y-Force     /span = 0.079587  x  1/2 rho V  c
+
+
+.OPERi   c>  At line 135 of file ../src/userio.f (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+^C
+C:\Users\Windows\Desktop\OmniResources\Semesters\6 Spring 2023 Omnibus\0 Construct and Exercises\821>xfoil < af_00deg.tx
+t> outputredo.txt
+
+C:\Users\Windows\Desktop\OmniResources\Semesters\6 Spring 2023 Omnibus\0 Construct and Exercises\821>xfoil < af_00deg.txt> output_ail_00.txt
+
+C:\Users\Windows\Desktop\OmniResources\Semesters\6 Spring 2023 Omnibus\0 Construct and Exercises\821>xfoil < af_05deg.txt> output_ail_05.txt
+
+C:\Users\Windows\Desktop\OmniResources\Semesters\6 Spring 2023 Omnibus\0 Construct and Exercises\821>xfoil < af_10deg.txt> output_ail_10.txt
+
+C:\Users\Windows\Desktop\OmniResources\Semesters\6 Spring 2023 Omnibus\0 Construct and Exercises\821>xfoil < af_15deg.txt> output_ail_15.txt
+^C
+C:\Users\Windows\Desktop\OmniResources\Semesters\6 Spring 2023 Omnibus\0 Construct and Exercises\821>xfoil < el_00deg.txt> output_ele_00.txt
+
+C:\Users\Windows\Desktop\OmniResources\Semesters\6 Spring 2023 Omnibus\0 Construct and Exercises\821>xfoil < el_05deg.txt> output_ele_05.txt
+
+C:\Users\Windows\Desktop\OmniResources\Semesters\6 Spring 2023 Omnibus\0 Construct and Exercises\821>xfoil < el_10deg.txt> output_ele_10.txt
+
+C:\Users\Windows\Desktop\OmniResources\Semesters\6 Spring 2023 Omnibus\0 Construct and Exercises\821>xfoil < el_15deg.txt> output_ele_15.txt
+
+C:\Users\Windows\Desktop\OmniResources\Semesters\6 Spring 2023 Omnibus\0 Construct and Exercises\821>xfoil < el_30deg.txt> output_ele_30.txt
+
+C:\Users\Windows\Desktop\OmniResources\Semesters\6 Spring 2023 Omnibus\0 Construct and Exercises\821>xfoil < rudd_00deg.txt> output_rud_00.txt
+
+C:\Users\Windows\Desktop\OmniResources\Semesters\6 Spring 2023 Omnibus\0 Construct and Exercises\821>xfoil < rudd_05deg.txt> output_rud_05.txt
+
+C:\Users\Windows\Desktop\OmniResources\Semesters\6 Spring 2023 Omnibus\0 Construct and Exercises\821>xfoil < rudd_10deg.txt> output_rud_10.txt
+
+C:\Users\Windows\Desktop\OmniResources\Semesters\6 Spring 2023 Omnibus\0 Construct and Exercises\821>xfoil < rudd_15deg.txt> output_rud_15.txt
+
+C:\Users\Windows\Desktop\OmniResources\Semesters\6 Spring 2023 Omnibus\0 Construct and Exercises\821>xfoil < rudd_30deg.txt> output_rud_30.txt
+
+C:\Users\Windows\Desktop\OmniResources\Semesters\6 Spring 2023 Omnibus\0 Construct and Exercises\821>

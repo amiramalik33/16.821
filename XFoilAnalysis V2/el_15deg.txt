@@ -1,0 +1,59 @@
+load ht14_F15.dat
+oper
+visc
+2.43e5
+a 0
+fnew
+fmom
+0.7
+0
+a 1
+fnew
+fmom
+0.7
+0
+a 2
+fnew
+fmom
+0.7
+0
+a 3
+fnew
+fmom
+0.7
+0 
+a 4
+fnew
+fmom
+0.7
+0
+a 5
+fnew
+fmom
+0.7
+0
+aseq 5 10 0.5
+a 10
+fnew
+fmom
+0.7
+0
+aseq 10 12 0.5
+a 12
+fnew
+fmom
+0.7
+0
+init
+a 0
+pacc
+
+
+aseq 0 15 0.5 
+pacc
+pwrt 
+af_00_graphs.dat
+Y
+
+
+quit

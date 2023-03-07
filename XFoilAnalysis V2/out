@@ -1,0 +1,206 @@
+
+ ===================================================
+  XFOIL Version 6.99
+  Copyright (C) 2000   Mark Drela, Harold Youngren
+
+  This software comes with ABSOLUTELY NO WARRANTY,
+    subject to the GNU General Public License.
+
+  Caveat computor
+ ===================================================
+
+ File  xfoil.def  not found
+
+   QUIT    Exit program
+
+  .OPER    Direct operating point(s)
+  .MDES    Complex mapping design routine
+  .QDES    Surface speed design routine
+  .GDES    Geometry design routine
+
+   SAVE f  Write airfoil to labeled coordinate file
+   PSAV f  Write airfoil to plain coordinate file
+   ISAV f  Write airfoil to ISES coordinate file
+   MSAV f  Write airfoil to MSES coordinate file
+   REVE    Reverse written-airfoil node ordering
+
+   LOAD f  Read buffer airfoil from coordinate file
+   NACA i  Set NACA 4,5-digit airfoil and buffer airfoil
+   INTE    Set buffer airfoil by interpolating two airfoils
+   NORM    Buffer airfoil normalization toggle
+   XYCM rr Change CM reference location, currently  0.25000 0.00000
+
+   BEND    Display structural properties of current airfoil
+
+   PCOP    Set current-airfoil panel nodes directly from buffer airfoil points
+   PANE    Set current-airfoil panel nodes ( 160 ) based on curvature
+  .PPAR    Show/change paneling
+
+  .PLOP    Plotting options
+
+   WDEF f  Write  current-settings file
+   RDEF f  Reread current-settings file
+   NAME s  Specify new airfoil name
+   NINC    Increment name version number
+
+   Z       Zoom    | (available in all menus)
+   U       Unzoom  | 
+
+ XFOIL   c>  
+ Labeled airfoil file.  Name:  AG 36                                           
+
+ Number of input coordinate points: 180
+ Counterclockwise ordering
+ Max thickness =     0.081783  at x =   0.276
+ Max camber    =     0.022435  at x =   0.368
+
+  LE  x,y  =   0.00000   0.02638  |   Chord =   1.00031
+  TE  x,y  =   1.00000   0.00134  |
+
+ Current airfoil nodes set from buffer airfoil nodes ( 180 )
+
+ XFOIL   c>  
+ You are working with the buffer airfoil
+
+.GDES   c>  
+Enter flap hinge x location   r>  
+  Top    surface:  y =  0.0331     y/t = 1.0
+  Bottom surface:  y = -0.0000     y/t = 0.0
+
+Enter flap hinge y location (or 999 to specify y/t)   r>  
+Enter flap hinge relative y/t location   r>  
+ Flap hinge: x,y =  0.80000  0.01655
+
+Enter flap deflection in degrees (+ down)   r>  
+ Top breaks: x,y =    0.80226  0.03278      0.80226  0.03278
+ Bot breaks: x,y =    0.79928 -0.00000      0.80072 -0.00000
+ Max thickness =     0.081827  at x =   0.277
+ Max camber    =     0.029337  at x =   0.443
+
+.GDES   c>  
+ Current airfoil nodes set from buffer airfoil nodes ( 183 )
+
+.GDES   c>  
+ XFOIL   c>  
+Enter output filename   s>  
+ Output file exists.  Overwrite?  Y
+
+ XFOIL   c>  
+ Labeled airfoil file.  Name:  AG 36                                           
+
+ Number of input coordinate points: 180
+ Counterclockwise ordering
+ Max thickness =     0.081783  at x =   0.276
+ Max camber    =     0.022435  at x =   0.368
+
+  LE  x,y  =   0.00000   0.02638  |   Chord =   1.00031
+  TE  x,y  =   1.00000   0.00134  |
+
+ Current airfoil nodes set from buffer airfoil nodes ( 180 )
+
+ XFOIL   c>  
+ You are working with the buffer airfoil
+
+.GDES   c>  
+Enter flap hinge x location   r>  
+  Top    surface:  y =  0.0331     y/t = 1.0
+  Bottom surface:  y = -0.0000     y/t = 0.0
+
+Enter flap hinge y location (or 999 to specify y/t)   r>  
+Enter flap hinge relative y/t location   r>  
+ Flap hinge: x,y =  0.80000  0.01655
+
+Enter flap deflection in degrees (+ down)   r>  
+ Top breaks: x,y =    0.80226  0.03278      0.80226  0.03278
+ Bot breaks: x,y =    0.79855 -0.00000      0.80145 -0.00000
+ Max thickness =     0.081895  at x =   0.279
+ Max camber    =     0.039113  at x =   0.660
+
+.GDES   c>  
+ Current airfoil nodes set from buffer airfoil nodes ( 183 )
+
+.GDES   c>  
+ XFOIL   c>  
+Enter output filename   s>  
+ Output file exists.  Overwrite?  Y
+
+ XFOIL   c>  
+ Labeled airfoil file.  Name:  AG 36                                           
+
+ Number of input coordinate points: 180
+ Counterclockwise ordering
+ Max thickness =     0.081783  at x =   0.276
+ Max camber    =     0.022435  at x =   0.368
+
+  LE  x,y  =   0.00000   0.02638  |   Chord =   1.00031
+  TE  x,y  =   1.00000   0.00134  |
+
+ Current airfoil nodes set from buffer airfoil nodes ( 180 )
+
+ XFOIL   c>  
+ You are working with the buffer airfoil
+
+.GDES   c>  
+Enter flap hinge x location   r>  
+  Top    surface:  y =  0.0331     y/t = 1.0
+  Bottom surface:  y = -0.0000     y/t = 0.0
+
+Enter flap hinge y location (or 999 to specify y/t)   r>  
+Enter flap hinge relative y/t location   r>  
+ Flap hinge: x,y =  0.80000  0.01655
+
+Enter flap deflection in degrees (+ down)   r>  
+ Top breaks: x,y =    0.80226  0.03278      0.80226  0.03278
+ Bot breaks: x,y =    0.79782 -0.00000      0.80218 -0.00000
+ Max thickness =     0.081989  at x =   0.272
+ Max camber    =     0.051638  at x =   0.800
+
+.GDES   c>  
+ Current airfoil nodes set from buffer airfoil nodes ( 183 )
+
+.GDES   c>  
+ XFOIL   c>  
+Enter output filename   s>  
+ Output file exists.  Overwrite?  Y
+
+ XFOIL   c>  
+ XFOIL   c>  
+ Labeled airfoil file.  Name:  AG 36                                           
+
+ Number of input coordinate points: 180
+ Counterclockwise ordering
+ Max thickness =     0.081783  at x =   0.276
+ Max camber    =     0.022435  at x =   0.368
+
+  LE  x,y  =   0.00000   0.02638  |   Chord =   1.00031
+  TE  x,y  =   1.00000   0.00134  |
+
+ Current airfoil nodes set from buffer airfoil nodes ( 180 )
+
+ XFOIL   c>  
+ You are working with the buffer airfoil
+
+.GDES   c>  
+Enter flap hinge x location   r>  
+  Top    surface:  y =  0.0331     y/t = 1.0
+  Bottom surface:  y = -0.0000     y/t = 0.0
+
+Enter flap hinge y location (or 999 to specify y/t)   r>  
+Enter flap hinge relative y/t location   r>  
+ Flap hinge: x,y =  0.80000  0.01655
+
+Enter flap deflection in degrees (+ down)   r>  
+ Top breaks: x,y =    0.80226  0.03278      0.80226  0.03278
+ Bot breaks: x,y =    0.79708 -0.00000      0.80292 -0.00000
+ Max thickness =     0.082105  at x =   0.271
+ Max camber    =     0.065085  at x =   0.800
+
+.GDES   c>  
+ Current airfoil nodes set from buffer airfoil nodes ( 183 )
+
+.GDES   c>  
+ XFOIL   c>  
+Enter output filename   s>  
+ XFOIL   c>  
+ XFOIL   c>  
+ XFOIL   c>  

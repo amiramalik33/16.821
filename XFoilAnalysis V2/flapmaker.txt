@@ -1,0 +1,51 @@
+load ag36.dat
+gdes
+flap
+0.8
+999
+0.5
+5
+x
+
+save
+ag36_F05.dat
+
+load ag36.dat
+gdes
+flap
+0.8
+999
+0.5
+10
+x
+
+save
+ag36_F10.dat
+
+load ag36.dat
+gdes
+flap
+0.8
+999
+0.5
+15
+x
+
+save
+ag36_F15.dat
+
+
+load ag36.dat
+gdes
+flap
+0.8
+999
+0.5
+20
+x
+
+save
+ag36_F20.dat
+
+
+quit
