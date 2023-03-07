@@ -1,0 +1,48 @@
+load ht14.dat
+gdes
+flap
+0.8
+999
+0.5
+5
+x
+
+save
+rudd_F05.dat
+
+load ht14.dat
+gdes
+flap
+0.8
+999
+0.5
+10
+x
+
+save
+rudd_F10.dat
+
+load ht14.dat
+gdes
+flap
+0.8
+999
+0.5
+15
+x
+
+save
+rudd_F15.dat
+load ht14.dat
+gdes
+flap
+0.8
+999
+0.5
+30
+x
+
+save
+rudd_F30.dat
+
+quit

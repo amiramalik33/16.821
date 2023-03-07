@@ -1,0 +1,35 @@
+load rudd_F15.dat
+oper
+visc
+2.43e5
+a 0
+fmom
+a 1
+fmom
+a 2
+fmom
+a 3
+fmom 
+a 4
+fmom 
+a 5
+fmom 
+aseq 5 10 0.5
+a 10
+fmom
+aseq 10 12 0.5
+a 12
+fmom
+init
+a 0
+pacc
+
+
+aseq 0 15 0.5 
+pacc
+pwrt 
+af_00_graphs.dat
+Y
+
+
+quit
